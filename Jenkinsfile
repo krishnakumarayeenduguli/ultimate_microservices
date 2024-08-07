@@ -17,7 +17,7 @@ pipeline {
                 }
             }
         }
-
+        
         stage('Verify Deployment') {
             steps {
                 withKubeConfig(
